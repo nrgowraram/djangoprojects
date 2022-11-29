@@ -14,8 +14,6 @@ In settings.py file I added my app name in the installed apps
 then I opened the views.py file and added the following code 
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
-
 def sayHello(request):
     return HttpResponse('<h1 style="color:black">{"Message":"Hello World!"}</h1>')
 Modified the urls.py file and then copied the urls.py file and pasted in the HelloWorld app 
